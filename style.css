@@ -1,0 +1,153 @@
+body {
+    height: 100%;
+    color: #555;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Logo styling */
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 40px; /* Adjust size accordingly */
+    margin-right: 10px;
+}
+
+nav .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.nav-links li :hover{
+    color: #D3E21F;
+}
+
+/* .nav-links li:first-child a {
+    color: #D3E21F; /* Lime yellow color *
+} */
+
+section {
+    height: 750px;
+    background-color: #1C3F39;
+    color: #fff;
+    margin: 0 12px;
+    border-radius: 30px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url('img/dera1.jpg');
+}
+
+.left-side {
+    max-width: 50%;
+    position: absolute;
+    top: 15%;
+    margin: 15px;
+}
+
+.left-side h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.left-side h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.left-side h2 span {
+    color: #D3E21F;
+}
+
+.left-side h2 strong {
+    color: #D3E21F;
+    font-weight: bold;
+}
+
+.left-side p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hire-me {
+    background-color: #D3E21F;
+}
+
+.download-cv {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.download-cv:hover {
+    background-color: #D3E21F;
+    border: 1px solid #D3E21F;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a img {
+    width: 20px;
+    height: 20px;
+}
+
+.right-side img {
+    border-radius: 10px;
+    width: 400px;
+}
